@@ -1,39 +1,23 @@
-# SQL Data Analyst Job Market Analysis
+## How to Use This Project
 
-## 📌 Project Overview
-This project analyzes real-world job posting data to understand:
-- Top-paying Data Analyst jobs
-- Most in-demand skills
-- Skills that provide the best salary-to-demand opportunity
+1. Load the dataset into your SQL environment (PostgreSQL / MySQL).
+2. Open the `queries.sql` file.
+3. Run queries step by step to:
+   - Analyze top-paying remote Data Analyst roles
+   - Identify most in-demand skills
+   - Find skills with the best salary-demand balance
+4. Use results to guide skill-learning or hiring decisions.
 
-## 📊 Dataset
-Tables used:
-- job_postings_fact
-- skills_job_dim
-- skills_dim
+## Key SQL Skills Demonstrated
 
-## 🛠 Tools & Concepts Used
-- SQL
-- Joins
-- Aggregations (COUNT, AVG)
-- CTEs
-- Business-driven data analysis
+- Complex JOINs (INNER, LEFT)
+- Aggregations (COUNT, AVG, ROUND)
+- Filtering & data cleaning
+- Common Table Expressions (CTEs)
+- Business-driven analysis
 
-## 🔍 Key Insights
-- SQL is the most in-demand skill across job postings
-- Python has the highest average salary
-- Power BI offers a strong balance of demand and salary with lower competition
+## Business Impact
 
-## 📈 Business Value
-This analysis helps:
-- Job seekers prioritize skill learning
-- Recruiters understand market trends
-- Training providers design relevant courses
-
-## 📁 Project Files
-- `queries.sql` → All SQL queries used
-- `project_report.pdf` → Detailed explanation and insights
-
-## 👤 Author
-Nitish Saini  
-Aspiring Data Analyst
+- Helped identify high-paying, high-demand data skills
+- Supports strategic upskilling decisions
+- Provides insights for recruiters & job seekers
